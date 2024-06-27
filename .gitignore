@@ -1,0 +1,37 @@
+# Ignore data files
+*.npy
+*.npz
+*.wav
+*.csv
+*.zip
+*.tar.gz
+*.tar.xz
+*.pdf
+
+# Ignore cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore specific directories
+CDHMM/Samples/
+InformationTheory/all_guess_results.npy.tar.gz
+
+# Allow Python and Jupyter files
+!*.py
+!*.ipynb
+
+# Allow shell scripts
+!*.sh
+
+# Allow markdown files
+!*.md
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# # Ignore additional files (add more if needed)
+# *.txt
